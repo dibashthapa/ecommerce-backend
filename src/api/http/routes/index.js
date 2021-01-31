@@ -1,4 +1,3 @@
-const { check } = require('prettier');
 const { checkAuth } = require('../middleware/auth');
 function init(router, handlers) {
   console.log('loading routes');
