@@ -16,7 +16,7 @@ const login = (authService) => async (req, res, next) => {
   } catch (error) {
     status = error.status || 500;
     headers = {};
-    body = {};
+    body = { error };
   } finally {
     sendResponse({
       responseWriter,
