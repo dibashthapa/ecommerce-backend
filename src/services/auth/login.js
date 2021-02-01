@@ -1,4 +1,4 @@
-const { compare, createToken, hash } = require("../utility/");
+const { compare, createToken, hash } = require('../utility/');
 const logError = console.error;
 const log = console.log;
 const login = (infra) => async ({ email, password }) => {
@@ -10,27 +10,25 @@ const login = (infra) => async ({ email, password }) => {
 
   try {
     if (!email) {
-      errors.push("email is required");
+      errors.push('email is required');
     }
     if (!password) {
-      errors.push("password is required");
+      errors.push('password is required');
     }
     if (errors.length > 0) {
-      throw { message: errors.join(","), status: 200 };
+      throw { message: errors.join(','), status: 200 };
     }
 
     const foundUser = await infra.findOne({ email });
 
-    if (!foundUser) throw { message: "User is not registered", status: 200 };
+    if (!foundUser) throw { message: 'User is not registered', status: 200 };
     const userEmail = foundUser.email;
     const userPassword = foundUser.password;
     const id = foundUser._id;
-    // To do, Implement jwt
-    // await compare(password, foundUser.password, 'testHash');
-    const verifyPassword = await compare(password, userPassword, "testHash");
 
-    if (!verifyPassword)
-      throw { message: "Password is not correct", status: 200 };
+    const verifyPassword = await compare(password, userPassword, 'testHash');
+
+    if (!verifyPassword) throw { message: 'Password is not correct', status: 200 };
     const token = await createToken({ email: userEmail, userId: id });
     await infra.updateOne({ savedUser: foundUser, token });
     return { token };

@@ -16,13 +16,11 @@ const user = (userService) => async (req, res, next) => {
 
     const { id } = req.user;
 
-    if (userId != id && role.toLowerCase() != "admin") {
+    if (userId != id && role.toLowerCase() != 'admin') {
       throw { status: 403 };
     } else {
       body = foundUser;
     }
-    
-
   } catch (error) {
     console.log(error);
     status = error.status || 500;

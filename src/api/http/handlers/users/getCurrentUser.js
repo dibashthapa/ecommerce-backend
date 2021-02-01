@@ -1,19 +1,16 @@
 const { sendResponse } = require('../../utility');
-
-const login = (authService) => async (req, res, next) => {
+const getCurrentUser = () => async (req, res, next) => {
   let body,
     headers,
     status,
     responseWriter = res;
 
   try {
-    const { email, password } = req.body;
-    const { token } = await authService.login({ email, password });
-
-    body = { token };
-
+    body = req.user;
     status = 200;
+    headers = {};
   } catch (error) {
+    console.log(error);
     status = error.status || 500;
     headers = {};
     body = {};
@@ -27,4 +24,4 @@ const login = (authService) => async (req, res, next) => {
   }
 };
 
-module.exports = { login };
+module.exports = { getCurrentUser };
