@@ -34,7 +34,7 @@ const login = (infra) => async ({ email, password }) => {
     return { token };
   } catch (error) {
     logError(error);
-    throw { error, status: 400 };
+    throw { ...error, status: 400 };
   }
 };
 
