@@ -21,14 +21,14 @@ const login = (infra) => async ({ email, password }) => {
 
     const foundUser = await infra.findOne({ email });
 
-    if (!foundUser) throw { message: 'User is not registered', status: 200 };
+    if (!foundUser) throw { message: 'User is not registered' };
     const userEmail = foundUser.email;
     const userPassword = foundUser.password;
     const id = foundUser._id;
 
     const verifyPassword = await compare(password, userPassword, 'testHash');
 
-    if (!verifyPassword) throw { message: 'Password is not correct', status: 200 };
+    if (!verifyPassword) throw { message: 'Password is not correct' };
     const token = await createToken({ email: userEmail, userId: id });
     await infra.updateOne({ savedUser: foundUser, token });
     return { token };
