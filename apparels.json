@@ -1,0 +1,227 @@
+[
+  {
+    "category": "",
+    "description": "<p><p><em>This is a demonstration store. You can purchase products like this from <a href=\"http://unitedbyblue.com/\" target=\"_blank\">United By Blue</a>.</em></p><meta charset=\"utf-8\">\n<p><span>A collection of the best Ursa Major has to offer! \"The Scout\" kit contains travel sizes of their best selling skin care items including: </span></p>\n<ul>\n<li><span style=\"line-height: 1.4;\">Face Wash (2 fl oz)</span></li>\n<li><span style=\"line-height: 1.4;\">Shave Cream (2 fl oz)</span></li>\n<li><span style=\"line-height: 1.4;\">Face Balm (0.5 fl oz)</span></li>\n<li><span style=\"line-height: 1.4;\">5 tonic-infused bamboo Face Wipes</span></li>\n</ul>\n<p><span>All wrapped together in a great, reusable tin.</span><span class=\"aam\"> </span></p></p>",
+    "id": 0,
+    "img_url": "https://cdn.shopify.com/s/files/1/0803/6591/products/skin-care_c18143d5-6378-46aa-b0d7-526aee3bc776.jpg?v=1426708827",
+    "inventory": 0,
+    "name": "The Scout Skincare Kit",
+    "price": 13.95
+  },
+  {
+    "category": "Shirts",
+    "description": "<p><p><em>This is a demonstration store. You can purchase products like this from <a href=\"http://unitedbyblue.com/\" target=\"_blank\">United By Blue</a>.</em></p>\n<p>Comfortable and practical, our chambray button down is perfect for travel or days spent on the go. The Ayres Chambray has a rich, washed out indigo color suitable to throw on for any event. Made with sustainable soft chambray featuring two chest pockets with sturdy and scratch resistant corozo buttons.</p>\n<ul class=\"tabs-content\">\n<li><span style=\"line-height: 1.4;\">100% Organic Cotton Chambray, 4.9 oz Fabric.</span></li>\n<li><span style=\"line-height: 1.4;\">Natural Corozo Buttons.</span></li>\n</ul></p>",
+    "id": 1,
+    "img_url": "https://cdn.shopify.com/s/files/1/0803/6591/products/chambray_5f232530-4331-492a-872c-81c225d6bafd.jpg?v=1426630717",
+    "inventory": 64,
+    "name": "Ayres Chambray",
+    "price": 198.95
+  },
+  {
+    "category": "Shirts",
+    "description": "<p><p><em>This is a demonstration store. You can purchase products like this from <a href=\"http://unitedbyblue.com/\" target=\"_blank\">United By Blue</a>.</em></p>\n<p>The lodge, after a day of white slopes, is a place of revelry, blazing fires and high spirits.</p>\n<ul>\n<li><span style=\"line-height: 1.4;\">100% organic cotton, stone washed slub knit 6 oz jersey fabric</span></li>\n</ul></p>",
+    "id": 2,
+    "img_url": "https://cdn.shopify.com/s/files/1/0803/6591/products/lodge_women_white2_df6cafb7-1756-4991-8f1c-e074ecf4a5f2.jpeg?v=1426786254",
+    "inventory": 41,
+    "name": "Lodge",
+    "price": 68.95
+  },
+  {
+    "category": "",
+    "description": "<p><p><em>This is a demonstration store. You can purchase products like this from <a href=\"http://unitedbyblue.com/\" target=\"_blank\">United By Blue</a>.</em></p><p><span style=\"line-height: 1.5;\">These Pennsylvania themed notebooks are part of the \"County Fair Edition\" Field Notes. With this 3-Pack, we pay homage to United By Blue's home state of PA.  The colors of the notebooks are the colors of 1st, 2nd and 3rd place County Fair ribbons; blue, red and yellow. They’re printed on 100-lb. linen cover stock and all three feature metallic gold printing and 48 pages of blank graph paper with light blue/grey lines inside. The back covers feature a bevy of meticulously-researched state facts and figures.</span></p>\n<ul>\n<li><span style=\"line-height: 1.4;\">3-1/2” wide by 5-1/2” tall</span></li>\n</ul>\n<ul class=\"tabs-content\"></ul></p>",
+    "id": 3,
+    "img_url": "https://cdn.shopify.com/s/files/1/0803/6591/products/PA1_5b8b54ac-f422-4e1a-a275-a13a9735203f.jpeg?v=1426786334",
+    "inventory": 94,
+    "name": "Pennsylvania Notebooks",
+    "price": 120.95
+  },
+  {
+    "category": "",
+    "description": "<p><p><em>This is a demonstration store. You can purchase products like this from <a href=\"http://unitedbyblue.com/\" target=\"_blank\">United By Blue</a>.</em></p><p>Bush Smart's Mud Scrub is part of their \"Man Soap\" collection. The Mud Scrub soap is made from patchouli essential oil, purifying mud, and all natural vegetable ingredients.</p>\n<ul class=\"tabs-content\">\n<li>10.5oz ( 3 x 3.5oz bars)</li>\n<li>\n<p class=\"p1\">Made in NY, USA</p>\n</li>\n</ul>\n<ul class=\"tabs-content\"></ul></p>",
+    "id": 4,
+    "img_url": "https://cdn.shopify.com/s/files/1/0803/6591/products/soap.jpeg?v=1426786369",
+    "inventory": 20,
+    "name": "Mud Scrub Soap",
+    "price": 196.95
+  },
+  {
+    "category": "Sweaters",
+    "description": "<p><p><em>This is a demonstration store. You can purchase products like this from <a href=\"http://unitedbyblue.com/\" target=\"_blank\">United By Blue</a>.</em></p>\n<p><span style=\"line-height: 1.4;\"><span style=\"line-height: 1.4;\">Buttons are fussy. Sometimes you just want to roll out of bed, put on the pull over and get to the days work. </span></span>Julie is 5'8\" and wearing a size small.</p>\n<ul class=\"tabs-content\">\n<li><span style=\"line-height: 1.4;\">100% Wool, Heavy 4 gauge thickness</span></li>\n<li><span style=\"line-height: 1.4;\">Handmade in Nepal.</span></li>\n</ul>\n<ul class=\"tabs-content\"></ul></p>",
+    "id": 5,
+    "img_url": "https://cdn.shopify.com/s/files/1/0803/6591/products/WhitneyPullover_Full_58e7b8d6-b939-4701-9e1d-9d853dff60ed.jpeg?v=1426786004",
+    "inventory": 56,
+    "name": "Whitney Pullover",
+    "price": 75.95
+  },
+  {
+    "category": "Sweaters",
+    "description": "<p><p><em>This is a demonstration store. You can purchase products like this from <a href=\"http://unitedbyblue.com/\" target=\"_blank\">United By Blue</a>.</em></p>\n<p>There’s a certain type of Cardigan that’s common in the old quays of Dublin and the wind battered coasts throughout Britain. We’ve brought this old world flare across the pond.</p>\n<ul>\n<li><span style=\"line-height: 1.4;\">100% Wool, 8 gauge</span></li>\n<li><span style=\"line-height: 1.4;\">Handmade in Nepal</span></li>\n</ul>\n<ul class=\"tabs-content\"></ul></p>",
+    "id": 6,
+    "img_url": "https://cdn.shopify.com/s/files/1/0803/6591/products/gertrude_charcoal.jpeg?v=1426786110",
+    "inventory": 5,
+    "name": "Gertrude Cardigan",
+    "price": 83.95
+  },
+  {
+    "category": "Shirts",
+    "description": "<p><p><em>This is a demonstration store. You can purchase products like this from <a href=\"http://unitedbyblue.com/\" target=\"_blank\">United By Blue</a>.</em></p>\n<ul class=\"tabs-content\">\n<li><span style=\"line-height: 1.4;\">100% Organic Cotton Chambray, 4.9 oz Fabric</span></li>\n<li><span style=\"line-height: 1.4;\">Natural Corozo Buttons</span></li>\n<li><span style=\"line-height: 1.4;\">Made in United By Blue's hometown of Philadelphia, USA</span></li>\n</ul>\n<span style=\"line-height: 1.5;\">Christine is 5'6\" and is wearing a size small</span><br style=\"line-height: 1.4;\">\n<ul class=\"tabs-content\"></ul></p>",
+    "id": 7,
+    "img_url": "https://cdn.shopify.com/s/files/1/0803/6591/products/HarrietChambray_Longsleeves_25493de2-c72b-49a0-b319-d9d4117fae8e.jpeg?v=1426786037",
+    "inventory": 7,
+    "name": "Harriet Chambray",
+    "price": 126.95
+  },
+  {
+    "category": "",
+    "description": "<p><p><em>This is a demonstration store. You can purchase products like this from <a href=\"http://unitedbyblue.com/\" target=\"_blank\">United By Blue</a>.</em></p>\n<p>Our Derby backpack is built with downpour proof sustainable canvas complemented by leather trim and brass hardware. Features padded canvas shoulder straps adjustable for all -day comfort. Finished with a drawstring closure and snap buckles to keep your belongings safe and secure on any trail taken.</p>\n<ul>\n<li><span style=\"line-height: 1.4;\">100% organic waxed 18 oz canvas</span></li>\n<li><span style=\"line-height: 1.4;\">Full grain genuine leather trim</span></li>\n<li><span style=\"line-height: 1.4;\">Heavy-duty brass hardware and YKK zippers</span></li>\n<li>Lifetime Guarantee</li>\n</ul>\n<ul class=\"tabs-content\"></ul></p>",
+    "id": 8,
+    "img_url": "https://cdn.shopify.com/s/files/1/0803/6591/products/derbytier_nutmeg_810294de-9152-4bf7-b5e0-b88fc94a1ff8.jpeg?v=1426786410",
+    "inventory": 2,
+    "name": "Derby Tier Backpack",
+    "price": 30.95
+  },
+  {
+    "category": "Shirts",
+    "description": "<p><p><em>This is a demonstration store. You can purchase products like this from <a href=\"http://unitedbyblue.com/\" target=\"_blank\">United By Blue</a>.</em></p>\n<ul>\n<li><span style=\"line-height: 1.4;\">100% organic cotton, stone washed slub knit 6 oz jersey fabric</span></li>\n<li><span style=\"line-height: 1.4;\">Made in California.</span></li>\n</ul>\n<span style=\"line-height: 1.4;\"></span>\n<ul class=\"tabs-content\"></ul></p>",
+    "id": 9,
+    "img_url": "https://cdn.shopify.com/s/files/1/0803/6591/products/chevron_cream_542f1c3e-e0d9-4c94-aaa2-fff0d1368206.jpeg?v=1426786194",
+    "inventory": 83,
+    "name": "Chevron",
+    "price": 141.95
+  },
+  {
+    "category": "Shirts",
+    "description": "<p><p><em>This is a demonstration store. You can purchase products like this from <a href=\"http://unitedbyblue.com/\" target=\"_blank\">United By Blue</a>.</em></p>\n<ul>\n<li><span style=\"line-height: 1.4;\">100% organic cotton, stone washed slub knit 6 oz jersey fabric</span></li>\n<li><span style=\"line-height: 1.4;\">Made in California</span></li>\n</ul>\n<span style=\"line-height: 1.4;\"></span>\n<ul class=\"tabs-content\"></ul></p>",
+    "id": 10,
+    "img_url": "https://cdn.shopify.com/s/files/1/0803/6591/products/guaranteed_navy.jpeg?v=1426786281",
+    "inventory": 78,
+    "name": "Guaranteed",
+    "price": 42.95
+  },
+  {
+    "category": "Shirts",
+    "description": "<p><p><em>This is a demonstration store. You can purchase products like this from <a href=\"http://unitedbyblue.com/\" target=\"_blank\">United By Blue</a>.</em></p>\n<ul class=\"tabs-content\">\n<li><span style=\"line-height: 1.4;\">100% Organic Cotton</span></li>\n<li><span style=\"line-height: 1.4;\">Stone Washed Slub Knit</span></li>\n<li><span style=\"line-height: 1.4;\">6 oz Jersey Fabric</span></li>\n<li>Made in California</li>\n</ul>\n<p><span style=\"line-height: 1.5;\">Julie is 5'8\" and wearing a size small</span></p></p>",
+    "id": 11,
+    "img_url": "https://cdn.shopify.com/s/files/1/0803/6591/products/lunarcirque_gunmetal.jpeg?v=1426786238",
+    "inventory": 14,
+    "name": "Moon Cycle",
+    "price": 86.95
+  },
+  {
+    "category": "Accessories",
+    "description": "<p><p><em>This is a demonstration store. You can purchase products like this from <a href=\"http://unitedbyblue.com/\" target=\"_blank\">United By Blue</a>.</em></p>\n<p><span style=\"line-height: 1.4;\">A classic 5 panel hat with our United By Blue logo on the front and an adjustable strap to keep fit and secure. Made with recycled polyester and organic cotton mix.</span></p>\n<ul>\n<li><span style=\"line-height: 1.5;\">Made in New Jersey</span></li>\n<li><span style=\"line-height: 1.5;\">7oz Eco-Twill fabric: 35% organic cotton, 65% recycled PET (plastic water and soda bottles) </span></li>\n<li><span style=\"line-height: 1.5;\">Embossed leather patch</span></li>\n</ul>\n<ul class=\"tabs\"></ul>\n<p> </p>\n<ul class=\"tabs-content\"></ul></p>",
+    "id": 12,
+    "img_url": "https://cdn.shopify.com/s/files/1/0803/6591/products/5-panel-hat_4ee20a27-8d5a-490e-a2fc-1f9c3beb7bf5.jpg?v=1426709889",
+    "inventory": 48,
+    "name": "5 Panel Camp Cap",
+    "price": 111.95
+  },
+  {
+    "category": "",
+    "description": "<p><p><em>This is a demonstration store. You can purchase products like this from <a href=\"http://unitedbyblue.com/\" target=\"_blank\">United By Blue</a>.</em></p>\n<p>It's a duffle. It's a wheeling suitcase. It's both. This versatile, carryon-sized travel companion has a contrast leather trim and rugged brass hardware, a removable long strap and stash pockets on the inside and outside of the bag. When not wheeling it around, easily store the collapsible handle behind a hidden zipper pocket.</p>\n<ul>\n<li><span style=\"line-height: 1.4;\">100% organic canvas </span></li>\n<li><span style=\"line-height: 1.4;\">Cotton lining</span></li>\n<li><span style=\"line-height: 1.4;\">Leather trim</span></li>\n<li><span style=\"line-height: 1.4;\">Brass hardware</span></li>\n<li><span style=\"line-height: 1.4;\">Removable adjustable strap with leather shoulder pad</span></li>\n<li>Lifetime Guarantee</li>\n</ul>\n<ul class=\"tabs-content\"></ul></p>",
+    "id": 13,
+    "img_url": "https://cdn.shopify.com/s/files/1/0803/6591/products/DawsonTrolley_Moss_Front_6cca3dc3-51d3-4205-a1e1-ed5d9a03e181.jpeg?v=1426786397",
+    "inventory": 67,
+    "name": "Dawson Trolley",
+    "price": 187.95
+  },
+  {
+    "category": "",
+    "description": "<p><p><em>This is a demonstration store. You can purchase products like this from <a href=\"http://unitedbyblue.com/\" target=\"_blank\">United By Blue</a>.</em></p>\n<p>Reusable, durable, and roomy. Our lunchbag has a snap-closure top that rolls down to perfect for trail snacks and lunches. Small enough to throw in any of our bags.</p>\n<ul>\n<li><span style=\"line-height: 1.4;\">100% Organic Cotton</span></li>\n<li><span style=\"line-height: 1.4;\">Leather Trim</span></li>\n<li>Lifetime Guarantee</li>\n</ul>\n<ul class=\"tabs-content\"></ul></p>",
+    "id": 14,
+    "img_url": "https://cdn.shopify.com/s/files/1/0803/6591/products/Lunchbag_Khaki_Front_8ae0e1f4-407d-4ac0-89e6-961b306ef351.jpeg?v=1426786436",
+    "inventory": 85,
+    "name": "Canvas Lunch Bag",
+    "price": 190.95
+  },
+  {
+    "category": "Jackets",
+    "description": "<p><p><em>This is a demonstration store. You can purchase products like this from <a href=\"http://unitedbyblue.com/\" target=\"_blank\">United By Blue</a>.</em></p>\n<p><span style=\"line-height: 1.5;\">Inspired by the timeless, functional style of your grandfather's work coat, the Foraker features brass buttons and 4 patch pockets. Crafted in Bristol, Tennessee, our 10oz organic duck canvas is light enough for an early summer morning, but rugged enough to handle your days work.</span></p>\n<ul class=\"tabs-content\">\n<li><span style=\"line-height: 1.4;\">100% Organic Duck Canvas.</span></li>\n</ul></p>",
+    "id": 15,
+    "img_url": "https://cdn.shopify.com/s/files/1/0803/6591/products/woolfill-jacket_6c39ae23-c0c8-4821-85f4-4b5d64333c62.jpg?v=1426709876",
+    "inventory": 39,
+    "name": "Duckworth Woolfill Jacket",
+    "price": 181.95
+  },
+  {
+    "category": "Bags",
+    "description": "<p><p><em>This is a demonstration store. You can purchase products like this from <a href=\"http://unitedbyblue.com/\" target=\"_blank\">United By Blue</a>.</em></p>\n<p>This durable backpack is ready for any adventure, large or small. Features adjustable and padded shoulder pads for comfort. Designed with a storm flap and a secured by two snap-button closure. Made with a waxed downpour proof exterior canvas and a soft cotton interior lining. Finished with brass hardware and genuine leather trimmings.</p>\n<ul>\n<li><span style=\"line-height: 1.4;\">100% organic waxed 18 oz canvas</span></li>\n<li><span style=\"line-height: 1.4;\">Full grain genuine leather accents </span></li>\n<li><span style=\"line-height: 1.4;\">Adjustable shoulder straps</span></li>\n<li>Lifetime Guarantee</li>\n</ul>\n<ul class=\"tabs-content\"></ul></p>",
+    "id": 16,
+    "img_url": "https://cdn.shopify.com/s/files/1/0803/6591/products/scout-backpack_a035275d-8975-4a05-8456-5e1ec35f020f.jpg?v=1426709869",
+    "inventory": 75,
+    "name": "Scout Backpack",
+    "price": 6.95
+  },
+  {
+    "category": "Shirts",
+    "description": "<p><p><em>This is a demonstration store. You can purchase products like this from <a href=\"http://unitedbyblue.com/\" target=\"_blank\">United By Blue</a>.</em></p>\n<ul class=\"tabs-content\">\n<li><span style=\"line-height: 1.4;\">Super soft, super responsible - our wovens were made to last.</span></li>\n<li><span style=\"line-height: 1.4;\">Short sleeve</span></li>\n<li><span style=\"line-height: 1.4;\">Made of 100% Organic Cotton Plaid, 4 oz</span></li>\n<li><span style=\"line-height: 1.4;\">Made in USA</span></li>\n</ul>\n<ul class=\"tabs-content\"></ul></p>",
+    "id": 17,
+    "img_url": "https://cdn.shopify.com/s/files/1/0803/6591/products/CydneyPlaid_Longsleeve_e72db08c-cd32-41eb-8251-d826cf0fc299.jpeg?v=1426786085",
+    "inventory": 79,
+    "name": "Cydney Plaid",
+    "price": 8.95
+  },
+  {
+    "category": "Footwear",
+    "description": "<p><p><em>This is a demonstration store. You can purchase products like this from <a href=\"http://unitedbyblue.com/\" target=\"_blank\">United By Blue</a>.</em></p>\n<p><span style=\"line-height: 1.4;\">The Mesabi Iron Range lies in northern Minnesota, a rugged and remote area known for its iron mines. The local residents who work these mines are proudly known as Iron Rangers, individuals with a sense of adventure and a determined personality. Originally designed to be worn in the iron mines, Iron Ranger work boots had to be as tough as the people who wore them in demanding conditions. Iron Ranger boots are built with a double layer of leaver over the toe to provide an extra measure of safety.</span></p>\n<ul class=\"tabs-content\">\n<li><span style=\"line-height: 1.5;\">6 inch, Amber Harness leather with Nitrile Cork sole.</span></li>\n</ul>\n<ul class=\"tabs-content\"></ul></p>",
+    "id": 18,
+    "img_url": "https://cdn.shopify.com/s/files/1/0803/6591/products/boot.jpg?v=1426709753",
+    "inventory": 74,
+    "name": "Red Wing Iron Ranger Boot",
+    "price": 67.95
+  },
+  {
+    "category": "Shirts",
+    "description": "<p><p><em>This is a demonstration store. You can purchase products like this from <a href=\"http://unitedbyblue.com/\" target=\"_blank\">United By Blue</a>.</em></p>\n<ul class=\"tabs-content\">\n<li><span style=\"line-height: 1.4;\">We updated our standard with a relaxed fit that stands up to constant wear.</span></li>\n<li><span style=\"line-height: 1.4;\">100% Organic Cotton</span></li>\n<li><span style=\"line-height: 1.4;\">Imported</span></li>\n<li>Relaxed Fit.</li>\n</ul>\n<p><span style=\"line-height: 1.5;\">Julie is 5'8\" and is wearing a size small.</span></p>\n<ul class=\"tabs-content\"></ul>\n<ul class=\"tabs-content\"></ul></p>",
+    "id": 19,
+    "img_url": "https://cdn.shopify.com/s/files/1/0803/6591/products/swing_deepwater_26dfd395-1a9b-4ff0-9f47-10331738fded.jpeg?v=1426786268",
+    "inventory": 4,
+    "name": "Long Sleeve Swing Shirt",
+    "price": 158.95
+  },
+  {
+    "category": "",
+    "description": "<p><p><em>This is a demonstration store. You can purchase products like this from <a href=\"http://unitedbyblue.com/\" target=\"_blank\">United By Blue</a>.</em></p>\n<p><span>The Mola Headlamp is a powerful, innovative new LED lamp that follows the angle of your eyes as you look up and down, eliminating the need for clunky hinges.</span></p></p>",
+    "id": 20,
+    "img_url": "https://cdn.shopify.com/s/files/1/0803/6591/products/snowpeak_headlamp_458e50f4-a354-423e-ad48-a83c47878792.jpeg?v=1426786675",
+    "inventory": 56,
+    "name": "Mola Headlamp",
+    "price": 76.95
+  },
+  {
+    "category": "",
+    "description": "<p><p><em>This is a demonstration store. You can purchase products like this from <a href=\"http://unitedbyblue.com/\" target=\"_blank\">United By Blue</a>.</em></p><p>Snow Peak’s classic insulated stainless steel mug is perfect for the home or campsite.</p></p>",
+    "id": 21,
+    "img_url": "https://cdn.shopify.com/s/files/1/0803/6591/products/mug.jpeg?v=1426786665",
+    "inventory": 53,
+    "name": "Double Wall Mug",
+    "price": 44.95
+  },
+  {
+    "category": "",
+    "description": "<p><p><em>This is a demonstration store. You can purchase products like this from <a href=\"http://unitedbyblue.com/\" target=\"_blank\">United By Blue</a>.</em></p>\n<p>Produced quarterly by United By Blue, The Field Report is a two-page printed newsprint of exciting upcoming product arrivals, updates on our ocean and waterway cleanups, behind the scenes, and accompanying beautiful imagery.</p></p>",
+    "id": 22,
+    "img_url": "https://cdn.shopify.com/s/files/1/0803/6591/products/fieldreport_vol2_front_437c4459-042c-4b07-8018-f092a5eb83ac.jpeg?v=1426786355",
+    "inventory": 11,
+    "name": "The Field Report Vol. 2",
+    "price": 197.95
+  },
+  {
+    "category": "",
+    "description": "<p><p><em>This is a demonstration store. You can purchase products like this from <a href=\"http://unitedbyblue.com/\" target=\"_blank\">United By Blue</a>.</em></p>\n<p class=\"p1\">The Camp Stool is a classic take-anywhere seat that folds flat for easy transport and storage. The stool is crafted in Western North Carolina of kiln dried American Ash hardwood that has been finished with a protective Danish oil. The base of the seat is made from our classic navy blue organic cotton canvas, the same we use in products such as our Foraker Coat,  that is used to make the back of the chair, and detailed with a United By Blue woven patch. This stool is part of a collaboration United By Blue has with heritage outdoor furniture maker Blue Ridge Chair Works.</p>\n<ul>\n<li><span style=\"line-height: 1.4;\">Chair Weight: 4 lbs</span></li>\n<li><span style=\"line-height: 1.4;\">Open Size: 16”w x 11”d x 18”h</span></li>\n<li><span style=\"line-height: 1.4;\">Weight Capacity: 300 lbs</span></li>\n<li><span style=\"line-height: 1.4;\">Made in the USA</span></li>\n</ul></p>",
+    "id": 23,
+    "img_url": "https://cdn.shopify.com/s/files/1/0803/6591/products/campstool-1.jpeg?v=1426786646",
+    "inventory": 3,
+    "name": "Camp Stool",
+    "price": 196.95
+  },
+  {
+    "category": "Bags",
+    "description": "<p><p><em>This is a demonstration store. You can purchase products like this from <a href=\"http://unitedbyblue.com/\" target=\"_blank\">United By Blue</a>.</em></p>\n<p>Durable, rugged, and dependable designed with four zipper compartments. Two bellowed front pockets allow for easy access to smaller items, one large, spacious compartment with a padded laptop sleeve, and a tiny convenient pouch on top to keep keys and other small items secure. The Hudderton is built with organic downpour proof canvas, a durable full grain leather bottom to prevent wear and tear, and padded canvas shoulder straps for all-day comfort. From the commute to the trail the Hudderton is perfect for bag for the entire week.</p>\n<ul>\n<li><span style=\"line-height: 1.4;\">100% organic waxed 18 oz canvas</span></li>\n<li><span style=\"line-height: 1.4;\">Full grain genuine leather detail</span></li>\n<li><span style=\"line-height: 1.4;\">Soft interior cotton lining</span></li>\n<li><span style=\"line-height: 1.4;\">Brass hardware and YKK zippers</span></li>\n<li><span style=\"line-height: 1.4;\">Cotton Padded interior laptop sleeve</span></li>\n<li>Lifetime Guarantee</li>\n</ul>\n<ul class=\"tabs-content\"></ul></p>",
+    "id": 24,
+    "img_url": "https://cdn.shopify.com/s/files/1/0803/6591/products/hudderton-backpack_dc8afb13-448b-49d9-a042-5a163a97de8f.jpg?v=1426709346",
+    "inventory": 8,
+    "name": "Hudderton Backpack",
+    "price": 70.95
+  }
+]
