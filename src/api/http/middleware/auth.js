@@ -17,8 +17,6 @@ const checkAuth = async (req, res, next) => {
     req.headers = {};
     next();
   } catch (error) {
-    // Only send response on error
-    // While, on success , move to the next url , so no response from middleware
     status = 401;
     logError(error.message);
     sendResponse({

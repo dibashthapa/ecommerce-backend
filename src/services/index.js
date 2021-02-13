@@ -15,7 +15,7 @@ async function init(config = {}) {
     const rootService = root.init({ infra: rootInfra });
     const authService = auth.init({ infra: userInfra });
     const userService = user.init({ infra: userInfra });
-    return { rootService, authService , userService };
+    return { rootService, authService, userService };
   } catch (error) {
     errorLog(error);
     process.exit(0);

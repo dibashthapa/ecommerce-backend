@@ -6,7 +6,8 @@
   "scripts": {
     "test": "npm test",
     "start": "nodemon main.js",
-    "production": "node main.js"
+    "production": "npm run upload && node main.js",
+    "upload": "node ./src/scripts/uploadToDb"
   },
   "repository": {
     "type": "git",
