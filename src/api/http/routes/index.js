@@ -20,6 +20,21 @@ function init(router, handlers) {
     .all(handlers.errorHandlers.notAllowedHandler);
 
   router
+    .route('/product/category/apparels')
+    .get(handlers.apparelHandlers.get)
+    .all(handlers.errorHandlers.notAllowedHandler);
+
+  router
+    .route('/product/category/fashions')
+    .get(handlers.fashionHandlers.get)
+    .all(handlers.errorHandlers.notAllowedHandler);
+
+  router
+    .route('/product/category/jewleries')
+    .get(handlers.jewelryHandlers.get)
+    .all(handlers.errorHandlers.notAllowedHandler);
+
+  router
     .route('/user/:userId')
     .get(checkAuth, handlers.userHandlers.userHandler)
     .all(handlers.errorHandlers.notAllowedHandler);
