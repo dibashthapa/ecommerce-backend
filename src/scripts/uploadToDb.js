@@ -4,6 +4,7 @@ const products = require('../../products.json');
 const jewerly = require('../../jewelry.json');
 const config = require('../commons/config');
 const mongoose = require('mongoose');
+
 const parseProducts = (products) => {
   return JSON.parse(JSON.stringify(products));
 };
@@ -19,12 +20,13 @@ const Product = require('../models/products');
 const Fashion = require('../models/fashion');
 const Jewelry = require('../models/jewleries');
 
-function createApparels() {
-  parseApparels.map(({ category, description, name, price, img_url, id }, index) => {
+async function createApparels() {
+  await Apparel.remove({});
+  parseApparels.map(async ({ category, description, name, price, img_url, id }, index) => {
     console.log(`Adding  Product ${name}`);
     console.log('apparels');
     console.log(index);
-    const newProduct = Apparel({
+    const newProduct = await Apparel({
       category,
       description,
       name,
@@ -36,12 +38,13 @@ function createApparels() {
   });
 }
 
-function createProduct() {
-  parseProduct.map(({ category, description, name, price, img_url, id }, index) => {
+async function createProduct() {
+  await Product.remove({});
+  parseProduct.map(async ({ category, description, name, price, img_url, id }, index) => {
     console.log(`Adding  Product ${name}`);
     console.log('apparels');
     console.log(index);
-    const newProduct = Product({
+    const newProduct = await Product({
       category,
       description,
       name,
@@ -53,13 +56,14 @@ function createProduct() {
   });
 }
 
-function createFashion() {
-  parseFashion.map(({ category, description, name, price, img_url, id }, index) => {
+async function createFashion() {
+  await Fashion.remove({});
+  parseFashion.map(async ({ category, description, name, price, img_url, id }, index) => {
     try {
       console.log(`Adding  Product ${name}`);
       console.log(index);
 
-      const newProduct = Fashion({
+      const newProduct = await Fashion({
         category,
         description,
         name,
@@ -74,11 +78,12 @@ function createFashion() {
   });
 }
 
-function createJewelry() {
-  parseJewelry.map(({ category, description, name, price, img_url, id }, index) => {
+async function createJewelry() {
+  await Jewelry.remove({});
+  parseJewelry.map(async ({ category, description, name, price, img_url, id }, index) => {
     try {
       console.log(`Adding  Product ${name}`);
-      const newProduct = Jewelry({
+      const newProduct = await Jewelry({
         category,
         description,
         name,
@@ -99,6 +104,7 @@ async function main() {
     useUnifiedTopology: true,
     maxPoolSize: 1,
   });
+
   createApparels();
   createFashion();
   createJewelry();
