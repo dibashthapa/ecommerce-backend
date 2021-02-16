@@ -20,6 +20,11 @@ function init(router, handlers) {
     .all(handlers.errorHandlers.notAllowedHandler);
 
   router
+    .route('/product/category/all')
+    .get(handlers.productHandlers.get)
+    .all(handlers.errorHandlers.notAllowedHandler);
+
+  router
     .route('/product/category/apparels')
     .get(handlers.apparelHandlers.get)
     .all(handlers.errorHandlers.notAllowedHandler);

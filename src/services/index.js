@@ -5,7 +5,7 @@ const user = require('./users');
 const apparel = require('./apparel');
 const fashion = require('./fashion');
 const jewelery = require('./jewelery');
-
+const product = require('./products');
 const log = console.log;
 const errorLog = console.error;
 
@@ -20,6 +20,7 @@ async function init(config = {}) {
       apparelInfra,
       fashionInfra,
       jewelryInfra,
+      productInfra,
     } = await infrastructure.init({});
     const rootService = root.init({ infra: rootInfra });
     const authService = auth.init({ infra: userInfra });
@@ -27,11 +28,13 @@ async function init(config = {}) {
     const fashionService = fashion.init({ infra: fashionInfra });
     const jewelryService = jewelery.init({ infra: jewelryInfra });
     const userService = user.init({ infra: userInfra });
+    const productService = product.init({ infra: productInfra });
     return {
       rootService,
       authService,
       userService,
       apparelService,
+      productService,
       fashionService,
       jewelryService,
     };
