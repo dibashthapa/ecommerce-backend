@@ -10,7 +10,6 @@ const getFashion = (fashionService) => async (req, res, next) => {
     const foundFashion = await fashionService.get({ page });
     body = foundFashion;
   } catch (error) {
-    console.log(error);
     status = error.status || 500;
     headers = {};
     body = {};
