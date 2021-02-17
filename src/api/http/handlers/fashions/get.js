@@ -6,7 +6,8 @@ const getFashion = (fashionService) => async (req, res, next) => {
     responseWriter = res;
 
   try {
-    const { foundFashion } = await fashionService.get({});
+    const { page } = req.query;
+    const foundFashion = await fashionService.get({ page });
     body = foundFashion;
   } catch (error) {
     console.log(error);
