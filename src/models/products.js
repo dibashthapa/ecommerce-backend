@@ -19,6 +19,9 @@ const ProductSchema = new mongoose.Schema(
     id: {
       type: Number,
     },
+    _category: {
+      type: String,
+    },
   },
   { versionKey: false }
 );

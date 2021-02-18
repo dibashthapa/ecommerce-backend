@@ -40,20 +40,23 @@ async function createApparels() {
 
 async function createProduct() {
   await Product.remove({});
-  parseProduct.map(async ({ category, description, name, price, img_url, id }, index) => {
-    console.log(`Adding  Product ${name}`);
-    console.log('apparels');
-    console.log(index);
-    const newProduct = await Product({
-      category,
-      description,
-      name,
-      price,
-      imgUrl: img_url,
-      id,
-    });
-    newProduct.save();
-  });
+  parseProduct.map(
+    async ({ category, description, name, price, img_url, id, _category }, index) => {
+      console.log(`Adding  Product ${name}`);
+      console.log('apparels');
+      console.log(index);
+      const newProduct = await Product({
+        category,
+        description,
+        name,
+        price,
+        imgUrl: img_url,
+        id,
+        _category,
+      });
+      newProduct.save();
+    }
+  );
 }
 
 async function createFashion() {
