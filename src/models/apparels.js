@@ -23,4 +23,5 @@ const ApparelSchema = new mongoose.Schema(
   { versionKey: false }
 );
 const Apparel = mongoose.model('Apparel', ApparelSchema);
+console.log('je');
 module.exports = Apparel;
