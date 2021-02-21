@@ -50,3 +50,7 @@ In this codebase , we have used **Clean Architecture** by **Uncle Bob**. You can
 - **scripts** : Utility or external scripts which helps to execute the external script
 
 - **services** : Folder where business logic is defined.
+
+### Want to use the api ?
+
+<a href="https://www.getpostman.com/collections/7049a7389ba8a947a89e">Download the postman collections</a>. And import it in the postman and play with it. Thanks :)
