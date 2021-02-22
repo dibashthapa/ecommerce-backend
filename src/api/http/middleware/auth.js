@@ -13,7 +13,7 @@ const checkAuth = async (req, res, next) => {
     const token = req.headers['authorization'].split(' ')[1];
     const decoded = jwt.verify(token, secretToken);
     const { email, id } = decoded;
-    req.user = { email, id };
+    req.user = { email, id, token };
     req.headers = {};
     next();
   } catch (error) {
