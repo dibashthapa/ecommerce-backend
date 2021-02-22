@@ -1,4 +1,6 @@
 const { sendResponse } = require('../../utility');
+const { secretToken } = require('../../../../commons/config');
+const jwt = require('jsonwebtoken');
 const getCurrentUser = () => async (req, res, next) => {
   let body,
     headers,
@@ -6,12 +8,10 @@ const getCurrentUser = () => async (req, res, next) => {
     responseWriter = res;
 
   try {
-    body = req.user;
+    body = { user: req.user };
     status = 200;
-    headers = {};
   } catch (error) {
-    console.log(error);
-    status = error.status || 500;
+    status = 401;
     headers = {};
     body = {};
   } finally {
