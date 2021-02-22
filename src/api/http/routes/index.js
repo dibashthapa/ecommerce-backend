@@ -21,7 +21,7 @@ function init(router, handlers) {
 
   router
     .route('/user')
-    .post(checkAuth, handlers.userHandlers.getCurrentUserHandler)
+    .post(handlers.userHandlers.getCurrentUserHandler)
     .all(handlers.errorHandlers.notAllowedHandler);
 
   router

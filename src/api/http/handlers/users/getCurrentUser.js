@@ -8,7 +8,10 @@ const getCurrentUser = () => async (req, res, next) => {
     responseWriter = res;
 
   try {
-    body = { user: req.user };
+    const { token } = req.body;
+    const decoded = jwt.verify(token, secretToken);
+    const user = { email: decoded.email, password: decoded.password };
+    body = { decoded, token };
     status = 200;
   } catch (error) {
     status = 401;
