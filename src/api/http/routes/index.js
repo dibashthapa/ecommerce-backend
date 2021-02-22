@@ -15,6 +15,11 @@ function init(router, handlers) {
     .all(handlers.errorHandlers.notAllowedHandler);
 
   router
+    .route('/auth/verify')
+    .post(handlers.authHandlers.verifyHandler)
+    .all(handlers.errorHandlers.notAllowedHandler);
+
+  router
     .route('/user')
     .post(checkAuth, handlers.userHandlers.getCurrentUserHandler)
     .all(handlers.errorHandlers.notAllowedHandler);
