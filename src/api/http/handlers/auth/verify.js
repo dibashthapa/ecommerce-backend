@@ -8,8 +8,8 @@ const verify = () => async (req, res, next) => {
     responseWriter = res;
 
   try {
-    const token = req.headers['authorization'].split(' ')[1];
-    const decoded = jwt.verify(token, secretToken);
+    const { token } = req.body;
+    jwt.verify(token, secretToken);
     status = 200;
   } catch (error) {
     status = 401;
