@@ -1,19 +1,20 @@
 const logError = console.error;
 const log = console.log;
-const get = (infra) => async ({ page }) => {
+const get = (infra) => async ({ page, size }) => {
   try {
     const foundProduct = await infra.findAll();
     const previous = parseInt(page) - 1;
-    const start = previous * 10;
-    const end = start + 10;
+    const start = previous ? previous * 10 : 0;
+    const end = start ? start + 10 : foundProduct.length;
     const paginatedProduct = foundProduct.slice(start, end);
-    if (page) {
-      return paginatedProduct;
-    }
-    return foundProduct;
+
+    //check if there are two queries i.e. page & size. And throw error
+    if (page && size) throw new Error("A url can't have two queries page & size");
+    if (size) return paginatedProduct.slice(0, size);
+    return paginatedProduct;
   } catch (error) {
     logError(error.message);
-    throw { error, status: 404 };
+    throw { message: error.message, status: 404 };
   }
 };
 

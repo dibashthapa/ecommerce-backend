@@ -6,15 +6,13 @@ const getProduct = (productService) => async (req, res, next) => {
     responseWriter = res;
 
   try {
-    const { page } = req.query;
-
-    const Product = await productService.get({ page });
+    const { page, size } = req.query;
+    const Product = await productService.get({ page, size });
     body = Product;
   } catch (error) {
-    console.log(error);
     status = error.status || 500;
     headers = {};
-    body = {};
+    body = { message: error.message };
   } finally {
     sendResponse({
       responseWriter,
