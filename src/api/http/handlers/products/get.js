@@ -1,4 +1,4 @@
-const { sendResponse } = require('../../utility');
+const { sendResponse, logger } = require('../../utility');
 const getProduct = (productService) => async (req, res, next) => {
   let body,
     headers,

@@ -1,11 +1,19 @@
 const logError = console.error;
-const log = console.log;
-const get = (infra) => async ({}) => {
+const { logger } = require('../../../src/api/http/utility');
+let response = {};
+const get = (infra) => async ({ page }) => {
   try {
     const foundApparel = await infra.findAll();
-    return { foundApparel };
+    const previous = parseInt(page) - 1;
+    const start = previous ? previous * 10 : 0;
+    const end = start + 10;
+    const paginatedApparel = foundApparel.slice(start, end);
+    response['totalPages'] = Math.ceil(foundApparel.length / 10);
+    //check if there are two queries i.e. page & size. And throw error
+    if (page) response['paginatedApparel'] = paginatedApparel;
+    return response;
   } catch (error) {
-    logError(error.message);
+    logger.error(error.message);
     throw { error, status: 404 };
   }
 };
